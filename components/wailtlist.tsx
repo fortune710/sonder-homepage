@@ -50,8 +50,8 @@ export function WailtlistForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" variant={"default"} className="font-medium">
-          Join wailtlist
+        <Button type="submit" variant={"default"} className="font-semibold">
+          Sign up for early access
         </Button>
       </form>
     </Form>
