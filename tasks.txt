@@ -1,0 +1,4 @@
+1. Create Function to Send Transactional Email
+2. Craft Email and put link for the to watch preview video
+3. Present Congratulations Message upon successful sign up
+4. Spin up DB to input waitlist users

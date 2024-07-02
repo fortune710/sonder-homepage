@@ -1,26 +1,28 @@
 import { Badge } from "@/components/ui/badge";
 import { BackgroundBeams } from "@/components/ui/beams";
-import { WailtlistForm } from "@/components/wailtlist";
 import { Headphones } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Waitlist() {
   return (
     <>
-      <header className="sticky z-10 w-full  top-0 flex justify-start py-4 items-center gap-4 border-b bg-background px-4 md:px-6">
-        <h1>Sonder</h1>
+      <header className="sticky z-50 w-full top-0 flex justify-start py-4 items-center gap-4 border-b bg-background px-4 md:px-6 box-border">
+        <nav className="max-sm:px-4">
+          <Image src="/sonder-logo.png" alt="Sonder Logo" width={30} height={40}/>
+        </nav>
       </header>
-      <main className="flex flex-col py-20 px-5 md:px-10 relative lg:px-20 min-h-dvh justify-center items-center">
-        <div className="max-w-7xl w-full relative z-30 gap-10 grid lg:grid-flow-col ">
+      <main className="flex flex-col py-20 px-5 md:px-10 lg:px-20 min-h-svh justify-center items-center -z-20 box-border">
+        <div className="max-w-7xl w-full relative z-30 gap-10 grid lg:grid-flow-col px-4">
           <div className="flex flex-col justify-center">
-            <div className="space-y-5">
+            <div className="flex flex-col gap-5 max-sm:text-center">
               <Badge
                 variant={"secondary"}
-                className="text-muted-foreground flex space-x-1 items-center max-w-fit"
+                className="text-muted-foreground flex space-x-1 items-center max-w-fit max-sm:mx-auto"
               >
                 <p>Join the beat</p> <Headphones width={14} height={14} />
               </Badge>
-              <h1 className="text-7xl font-semibold">
+              <h1 className="text-7xl max-sm:text-5xl font-semibold">
                 Discover your <span className="text-primary">music tribe</span>
               </h1>
               <p className="text-muted-foreground lg:max-w-2xl">
@@ -28,7 +30,10 @@ export default function Waitlist() {
                 and bond over your favorite tunes. Join Sonder now and let your
                 music find your people.
               </p>
-              <WailtlistForm />
+
+              <Link className="max-sm:mx-auto bg-primary rounded-md font-semibold text-black px-4 py-2 w-fit" href="https://forms.gle/XT1wqP7cNzgRDcSb6">
+                Sign up for early access
+              </Link>
             </div>
           </div>
           <div className="flex justify-center">
