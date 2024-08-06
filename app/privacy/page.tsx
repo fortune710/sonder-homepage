@@ -48,8 +48,8 @@ export default function PrivacyPolicyPage() {
                 <p className='text-light-grey mt-4'><p className='font-bold'>• Service Providers:</p> We may share your information with third-party service providers who help us provide and improve our services.</p>
                 <p className='text-light-grey mt-4'><p className='font-bold'>• Legal Compliance:</p> We may disclose your information if required by law or to protect our rights or the rights of others.</p>
                 <h2 className="font-medium">5. Cookies</h2>
-                <p className='text-light-grey mt-4'>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
-                <p className='text-light-grey mt-4'>This Service does not use these "cookies" explicitly. However, the app may use third-party code and libraries that use "cookies" to collect Information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+                <p className='text-light-grey mt-4'>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device&apos;s internal memory.</p>
+                <p className='text-light-grey mt-4'>This Service does not use these &quot;cookies&quot; explicitly. However, the app may use third-party code and libraries that use &quot;cookies&quot; to collect Information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
                 <h2 className="font-medium">6. Security of Your Information</h2>
                 <p className='text-light-grey mt-4'>We take steps to protect your information using commercially reasonable safeguards to prevent unauthorized access, use, or disclosure but remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and We cannot guarantee its absolute security</p>
                 <h2 className="font-medium">7. CI/CD tools</h2>
@@ -70,10 +70,10 @@ export default function PrivacyPolicyPage() {
                         https://help.github.com/en/github/site-policy/github-privacy-statement
                     </Link>
                 </p>
-                <h2 className="font-medium">8. Children's Privacy</h2>
+                <h2 className="font-medium">8. Children&apos;s Privacy</h2>
                 <p className='text-light-grey mt-4'>Our services are not intended for use by children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
                 <h2 className="font-medium">9. Links to Other Sites</h2>
-                <p className='text-light-grey mt-4'>Our Service may contain links to other sites that are not operated by us. If you click a third party   link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.{'\n\n'}
+                <p className='text-light-grey mt-4'>Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party&apos;s site. We strongly advise you to review the Privacy Policy of every site you visit.{'\n\n'}
                 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
                 </p>
                 <h2 className="font-medium">10. Changes to This Privacy Policy</h2>
